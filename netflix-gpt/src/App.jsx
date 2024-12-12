@@ -1,13 +1,23 @@
-import { useState } from 'react'
+import React from 'react';
 import './App.css'
+import Login from './Components/Login.jsx';
+import Browse from './Components/Browse.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
-
+  const appRouter = createBrowserRouter([
+    {
+      path: "/",
+      element: <Login/>
+    },
+    {
+      path: "/browse",
+      element: <Browse/>
+    }
+  ])
   return (
-    <>
-      <h1 className='text-2xl text-rose-600 font-bold'>Hello Vite!</h1>
-    </>
+    <RouterProvider router={appRouter}/>
   )
-}
+};
 
 export default App
