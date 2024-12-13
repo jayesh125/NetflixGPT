@@ -21,7 +21,7 @@ const HeaderLogin = () => {
       </div>
       <div className="absolute bg-black bg-gradient-to-t from-red-800 h-full w-full flex self-center items-center justify-center">
         <img
-          className="h-[500px] w-[800px] rounded-xl"
+          className="h-5/6 w-5/6 rounded-xl"
           src="https://i.pinimg.com/736x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg"
           alt="bg-img"
         />

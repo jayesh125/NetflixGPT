@@ -1,4 +1,4 @@
-# NetFLixGPT
+# NetFlixGPT Journey
 
 - Created App Using Vite
   - Vite Uses 
@@ -13,6 +13,13 @@
 - Designed the Login Page
   - Signin/Signup Form
   - Toggling
+
+- Routing
+
+- Form Validation
+  - Sign In Error Messages
+  - Using useRef
+
 
 ## Features for New User
   - Sign In / Sign Up Form
