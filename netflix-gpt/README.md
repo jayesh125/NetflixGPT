@@ -20,6 +20,10 @@
   - Sign In Error Messages
   - Using useRef
 
+- Added FireBase
+  - install `npm install firebase`
+  - tools `npm install -g firebase-tools`
+
 
 ## Features for New User
   - Sign In / Sign Up Form
